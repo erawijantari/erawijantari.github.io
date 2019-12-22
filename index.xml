@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Erawijantari</title>
-    <link>https://erawijantri.github.io/</link>
-      <atom:link href="https://erawijantri.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://erawijantari.github.io/</link>
+      <atom:link href="https://erawijantari.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Erawijantari</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://erawijantri.github.io/img/icon-192.png</url>
+      <url>https://erawijantari.github.io/img/icon-192.png</url>
       <title>Erawijantari</title>
-      <link>https://erawijantri.github.io/</link>
+      <link>https://erawijantari.github.io/</link>
     </image>
     
   </channel>
