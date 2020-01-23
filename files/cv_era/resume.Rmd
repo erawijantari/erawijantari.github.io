@@ -52,7 +52,7 @@ Aside
 ================================================================================
 
 
-![logo](era_fig.jpg){width=100%}
+![logo](era_fig.jpg){width=80%}
 
 Contact {#contact}
 --------------------------------------------------------------------------------
@@ -63,7 +63,7 @@ Contact {#contact}
 - <i class="fa fa-envelope"></i> erawijantari.p.aa@m.titech.ac.jp
 - <i class="fa fa-twitter"></i> [erawijantaript](https://twitter.com/erawijantaript)
 - <i class="fa fa-github"></i> [github.com/erawijantari](https://github.com/erawijantari)
-- <i class="fa fa-link"></i> [erawijantari.github.io](erawijantari.github.io)
+- <i class="fa fa-link"></i> [erawijantari.github.io](https://erawijantari.github.io/)
 - <i class="fa fa-phone"></i> +81 3-5734-3591
 
 
@@ -85,16 +85,15 @@ Skills {#skills}
 
 <br>
 <br>
-
-Experienced in computational bioinformatics and biostatistics applied for next-generation sequencing data integrated to other omics analysis, especially for microbiome study. 
+Experienced in computational bioinformatics and biostatistics applied for next-generation sequencing data integrated to other omics analyses, especially for microbiome study. 
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
-This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).  
+<font size=1>This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).  
 <br>
 
 Source code available at: [github.com/erawijantari/cv](https://github.com/erawijantari/academic-kickstart/tree/master/static/files/cv_era). 
-<br>
+<br></font>
 
 Last updated on `r Sys.Date()`.
 
@@ -105,7 +104,7 @@ Main
 Pande Putu Erawijantari {#title}
 --------------------------------------------------------------------------------
 
-<font size=2.5> Interested in applying bioinformatics analysis on the complex multi-omics data such as metagenomic, metabolomic, and metatranscriptomic. Current research mainly focus on the dynamics of human gut microbiome in the gastrointestinal-related diseases and its association to treatment effectiveness.  
+<font size=1.8> Interested in applying bioinformatics analysis on the complex multi-omics data such as metagenomic, metabolomic, and metatranscriptomic. Current research mainly focuses on the dynamics of the human gut microbiome in gastrointestinal-related diseases and its association with treatment effectiveness. Seeking for research opportunity in data exploration from large scale microbiome study, especially for understanding host-microbiome interaction.
 </font>
 
 Education {data-icon=graduation-cap data-concise=true}
@@ -136,7 +135,7 @@ position_data %>% print_section('conference')
 Teaching Experiences {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 ::: aside
-I am passionate about teaching because I always learn something new from it. Designing the course and effective teaching approach are very challenging process that I mostly enjoyed.
+Teaching give me an opportunity to learn new things. Designing the course and developing effective teaching approach are a challenging process that I mostly enjoyed.
 :::
 
 ```{r}
@@ -156,12 +155,13 @@ position_data %>% print_section('award')
 Work experiences {data-icon=suitcase}
 --------------------------------------------------------------------------------
 ::: aside
-### REFERENCE
+### REFERENCES
 
-**TAKUJI YAMADA**\
+**1. TAKUJI YAMADA, Ph.D**\
 Associate Professor\
 <font size="1">School of Life Science and Technology</font>\
-<font size="1">Tokyo Institute of Technology, Tokyo, JP</font>\
+<font size="1">Tokyo Institute of Technology</font>\
+<font size="1">2-12-1 M6-3 Ookayama, Meguro-ku, Tokyo 152-8550, Japan</font>\
 <font size="1">+813-5734-3629, takuji@bio.titech.ac.jp</font>
 :::
 
