@@ -104,7 +104,7 @@ Main
 Pande Putu Erawijantari {#title}
 --------------------------------------------------------------------------------
 
-<font size=1.8> Interested in applying bioinformatics analysis on the complex multi-omics data such as metagenomic, metabolomic, and metatranscriptomic. Current research mainly focuses on the dynamics of the human gut microbiome in gastrointestinal-related diseases and its association with treatment effectiveness. Seeking for research opportunity in data exploration from large scale microbiome study, especially for understanding host-microbiome interaction.
+<font size=2> Interested in applying bioinformatics analysis on the complex multi-omics data such as metagenomic, metabolomic, and metatranscriptomic. Current research mainly focuses on the dynamics of the human gut microbiome in gastrointestinal-related diseases and its association with treatment effectiveness. Seeking for research opportunity in data exploration from large scale microbiome study, especially for understanding host-microbiome interaction.
 </font>
 
 Education {data-icon=graduation-cap data-concise=true}
@@ -157,12 +157,29 @@ Work experiences {data-icon=suitcase}
 ::: aside
 ### REFERENCES
 
-**1. TAKUJI YAMADA, Ph.D**\
+**1. LEO LAHTI, D.Sc**\
+Associate Professor\
+<font size="1">Department of Future Technologies</font>\
+<font size="1">Faculty of Natural Sciences and Engineering</font>\
+<font size="1">University of Turku</font>\
+<font size="1">Yliopistonmäki, Turku, 20014, Finland </font>\
+<font size="1">+358 (0)50 436 4626,leo.lahti@iki.fi</font>
+
+**2. TEEMU NIIRANEN, MD, Ph.D**\
+Adjunct Professor\
+<font size="1">Department of Clinical Medicine</font>\
+<font size="1">Faculty of Medicine</font>\
+<font size="1">University of Turku</font>\
+<font size="1">Kiinamyllynkatu 10, Turku, 20520, Finland </font>\
+<font size="1">tejuni@utu.fi</font>
+
+**3. TAKUJI YAMADA, Ph.D**\
 Associate Professor\
 <font size="1">School of Life Science and Technology</font>\
 <font size="1">Tokyo Institute of Technology</font>\
 <font size="1">2-12-1 M6-3 Ookayama, Meguro-ku, Tokyo 152-8550, Japan</font>\
 <font size="1">+813-5734-3629, takuji@bio.titech.ac.jp</font>
+
 :::
 
 ```{r}
