@@ -1,0 +1,180 @@
+---
+title: Erawijantari_CV
+author: Pande Putu Erawijantari
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    css: ['css/custom_resume.css', 'css/styles.css', 'resume']
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    #self_contained: true
+    #chrome_print('resume.html', format="pdf)
+knit: pagedown::chrome_print
+---
+
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  results='asis', 
+  echo = FALSE
+)
+
+library(tidyverse)
+library(glue)
+
+# Set this to true to have links turned into footnotes at the end of the document
+PDF_EXPORT <- FALSE
+
+# Holds all the links that were inserted for placement at the end
+links <- c()
+
+source('parsing_functions.R')
+
+
+# First let's get the data, filtering to only the items tagged as
+# Resume items
+position_data <- read_csv('positions_eracv.csv') 
+ # filter(in_resume) 
+#%>% 
+#  mutate(
+    # Build some custom sections by collapsing others
+#    section = case_when(
+#      section %in% c('research_positions', 'industry_positions') ~ 'positions', 
+#      section %in% c('data_science_writings', 'by_me_press') ~ 'writings',
+#      TRUE ~ section
+#    )
+#  ) 
+
+
+
+```
+
+Aside
+================================================================================
+
+
+![logo](era_fig.jpg){width=80%}
+
+Contact {#contact}
+--------------------------------------------------------------------------------
+
+
+
+- <i class="fa fa-envelope"></i> erawijantari@gmail.com
+- <i class="fa fa-envelope"></i> pande.erawijantari@utu.fi
+- <i class="fa fa-twitter"></i> [erawijantaript](https://twitter.com/erawijantaript)
+- <i class="fa fa-github"></i> [github.com/erawijantari](https://github.com/erawijantari)
+- <i class="fa fa-link"></i> [erawijantari.github.io](https://erawijantari.github.io/)
+- <i class="fa fa-phone"></i> +358 44 922 6584
+
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+<br>
+<i class="fab fa-python"></i> `Python`
+
+<i class="fab fa-r-project"></i> `R`
+
+<i class="fas fa-code-branch"></i> `Git`
+
+<i class="fas fa-terminal"></i> `Bash`
+
+<i class="fab fa-linux"></i> `Unix/Linux`
+
+<i class="fas fa-server"></i> `HPC (SGE)`
+
+<br>
+<br>
+Experienced in computational bioinformatics and biostatistics applied for next-generation sequencing data integrated to other omics analyses, especially for microbiome study. 
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+<font size=1>This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).  
+<br>
+
+Source code available at: [github.com/erawijantari/cv](https://github.com/erawijantari/academic-kickstart/tree/master/static/files/cv_era). 
+<br></font>
+
+Last updated on `r Sys.Date()`.
+
+
+Main
+================================================================================
+
+Pande Putu Erawijantari {#title}
+--------------------------------------------------------------------------------
+
+<font size=2> Interested in applying bioinformatics analysis on the complex multi-omics data such as metagenomic, metabolomic, and metatranscriptomic. Current research mainly focuses on the dynamics of the human gut microbiome in human health and diseases conditions. Seeking for multidiscliplinary research opportunity in genomic data exploration particularly from large scale microbiome study for understanding host-microbiome interaction.
+</font>
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('education')
+```
+
+
+Selected Publications {data-icon=book-open}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('publication')
+```
+
+
+Selected conferences {data-icon=group}
+--------------------------------------------------------------------------------
+
+
+```{r}
+position_data %>% print_section('conference')
+```
+
+
+Teaching Experiences {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+::: aside
+Teaching give me an opportunity to learn new things. Designing the course and developing effective teaching approach are a challenging process that I mostly enjoyed.
+:::
+
+```{r}
+position_data %>% print_section('teaching')
+```
+
+
+Selected awards {data-icon=trophy}
+--------------------------------------------------------------------------------
+
+
+```{r}
+position_data %>% print_section('award')
+```
+
+
+Work experiences {data-icon=suitcase}
+--------------------------------------------------------------------------------
+::: aside
+### REFERENCES
+
+**1. LEO LAHTI, D.Sc**\
+Associate Professor\
+<font size="1">Department of Future Technologies</font>\
+<font size="1">Faculty of Natural Sciences and Engineering</font>\
+<font size="1">University of Turku</font>\
+<font size="1">Yliopistonmäki, Turku, 20014, Finland </font>\
+<font size="1">+358 (0)50 436 4626,leo.lahti@iki.fi</font>
+
+
+**2. TAKUJI YAMADA, Ph.D**\
+Associate Professor\
+<font size="1">School of Life Science and Technology</font>\
+<font size="1">Tokyo Institute of Technology</font>\
+<font size="1">2-12-1 M6-3 Ookayama, Meguro-ku, Tokyo 152-8550, Japan</font>\
+<font size="1">+813-5734-3629, takuji@bio.titech.ac.jp</font>
+
+:::
+
+```{r}
+position_data %>% print_section('experience')
+```

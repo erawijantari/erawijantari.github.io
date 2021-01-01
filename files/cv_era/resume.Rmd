@@ -60,11 +60,11 @@ Contact {#contact}
 
 
 - <i class="fa fa-envelope"></i> erawijantari@gmail.com
-- <i class="fa fa-envelope"></i> erawijantari.p.aa@m.titech.ac.jp
+- <i class="fa fa-envelope"></i> pande.erawijantari@utu.fi
 - <i class="fa fa-twitter"></i> [erawijantaript](https://twitter.com/erawijantaript)
 - <i class="fa fa-github"></i> [github.com/erawijantari](https://github.com/erawijantari)
 - <i class="fa fa-link"></i> [erawijantari.github.io](https://erawijantari.github.io/)
-- <i class="fa fa-phone"></i> +81 3-5734-3591
+- <i class="fa fa-phone"></i> +358 44 922 6584
 
 
 
@@ -104,7 +104,7 @@ Main
 Pande Putu Erawijantari {#title}
 --------------------------------------------------------------------------------
 
-<font size=2> Interested in applying bioinformatics analysis on the complex multi-omics data such as metagenomic, metabolomic, and metatranscriptomic. Current research mainly focuses on the dynamics of the human gut microbiome in gastrointestinal-related diseases and its association with treatment effectiveness. Seeking for research opportunity in data exploration from large scale microbiome study, especially for understanding host-microbiome interaction.
+<font size=2> Interested in applying bioinformatics analysis on the complex multi-omics data such as metagenomic, metabolomic, and metatranscriptomic. Current research mainly focuses on the dynamics of the human gut microbiome in human health and diseases conditions. Seeking for multidiscliplinary research opportunity in genomic data exploration particularly from large scale microbiome study for understanding host-microbiome interaction.
 </font>
 
 Education {data-icon=graduation-cap data-concise=true}
@@ -166,7 +166,7 @@ Associate Professor\
 <font size="1">+358 (0)50 436 4626,leo.lahti@iki.fi</font>
 
 **2. TEEMU NIIRANEN, MD, Ph.D**\
-Adjunct Professor\
+Professor\
 <font size="1">Department of Clinical Medicine</font>\
 <font size="1">Faculty of Medicine</font>\
 <font size="1">University of Turku</font>\
