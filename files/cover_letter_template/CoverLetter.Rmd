@@ -1,0 +1,102 @@
+---
+title: CoverLetter
+author: Pande Putu Erawijantari
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    css: ['css/custom_resume.css', 'css/styles.css', 'resume']
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    #self_contained: true
+    #chrome_print('resume.html', format="pdf)
+knit: pagedown::chrome_print
+---
+
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  results='asis', 
+  echo = FALSE
+)
+
+library(tidyverse)
+library(glue)
+
+# Set this to true to have links turned into footnotes at the end of the document
+PDF_EXPORT <- FALSE
+
+# Holds all the links that were inserted for placement at the end
+links <- c()
+
+source('parsing_functions.R')
+
+
+# First let's get the data, filtering to only the items tagged as
+# Resume items
+#position_data <- read_csv('positions_eracv.csv') 
+ # filter(in_resume) 
+#%>% 
+#  mutate(
+    # Build some custom sections by collapsing others
+#    section = case_when(
+#      section %in% c('research_positions', 'industry_positions') ~ 'positions', 
+#      section %in% c('data_science_writings', 'by_me_press') ~ 'writings',
+#      TRUE ~ section
+#    )
+#  ) 
+
+
+
+```
+
+Aside
+================================================================================
+<font size=3>Pande Putu Erawijantari</font> {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-map-marker-alt"></i> 
+University of Turku\
+Yliopistonmäki\
+20014 Turku, Finland\               
+- <i class="fa fa-envelope"></i> erawijantari@gmail.com
+- <i class="fa fa-envelope"></i> pande.erawijantari@utu.fi
+- <i class="fa fa-twitter"></i> [erawijantaript](https://twitter.com/erawijantaript)
+- <i class="fa fa-github"></i> [github.com/erawijantari](https://github.com/erawijantari)
+- <i class="fa fa-link"></i> [erawijantari.github.io](https://erawijantari.github.io/)
+- <i class="fa fa-phone"></i> +358 44 922 6584
+
+
+
+
+
+
+Main
+================================================================================
+
+<font size=2>Postdoctoral Researcher Application</font> {#title}
+--------------------------------------------------------------------------------
+
+<br></br>
+<font size=2.0>
+Date\
+<br></br>
+<br></br>
+**Name of Professor**\
+address 1\
+adress2\
+address3\
+adress4
+<br></br>
+<br></br>
+
+
+Dear Name of Professor,
+
+Main text
+
+
+Sincerelly,
+
+**Pande Putu Erawijantari**
+</font>
+
+
