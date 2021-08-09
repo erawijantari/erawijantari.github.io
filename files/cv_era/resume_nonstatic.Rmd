@@ -104,7 +104,7 @@ Main
 Pande Putu Erawijantari {#title}
 --------------------------------------------------------------------------------
 
-<font size=2> Interested in applying bioinformatics analysis on the complex multi-omics data such as metagenomic, metabolomic, and metatranscriptomic. Current research mainly focuses on the dynamics of the human gut microbiome in human health and diseases conditions. Seeking for multidiscliplinary research opportunity in genomic data exploration particularly from large scale microbiome study for understanding host-microbiome interaction.
+<font size=2> Interested in applying bioinformatics analysis on the complex multi-omics data such as metagenomic, metabolomic, and metatranscriptomic. Current research mainly focuses on the variation of the human gut microbiome in human health and diseases conditions. Seeking for multidiscliplinary research opportunity in genomic data exploration particularly from large scale microbiome study for understanding host-microbiome interaction.
 </font>
 
 Education {data-icon=graduation-cap data-concise=true}
@@ -159,11 +159,11 @@ Work experiences {data-icon=suitcase}
 
 **1. LEO LAHTI, D.Sc**\
 Associate Professor\
-<font size="1">Department of Future Technologies</font>\
-<font size="1">Faculty of Natural Sciences and Engineering</font>\
+<font size="1">Department of Computing</font>\
+<font size="1">Faculty of Technology</font>\
 <font size="1">University of Turku</font>\
 <font size="1">Yliopistonmäki, Turku, 20014, Finland </font>\
-<font size="1">+358 (0)50 436 4626,leo.lahti@iki.fi</font>
+<font size="1">+358 (0)50 436 4626, leo.lahti@utu.fi</font>
 
 
 **2. TAKUJI YAMADA, Ph.D**\

@@ -1,45 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://erawijantari.github.io/authors/erawijantari/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erawijantari.github.io/authors/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erawijantari.github.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erawijantari.github.io/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erawijantari.github.io/blog/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erawijantari.github.io/publication_types/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erawijantari.github.io/talk/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erawijantari.github.io/research/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erawijantari.github.io/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erawijantari.github.io/teaching/</loc>
   </url>
-  
 </urlset>
